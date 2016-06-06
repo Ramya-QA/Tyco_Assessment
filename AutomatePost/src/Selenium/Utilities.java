@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Utilities {
 		
+//Function to Read config file properties 	
 	public String getPropertyData(String key) throws IOException {		
 		
     //String FILE_NAME = "C:\\Users\\SUMANTH\\workspacemarch16\\AutomatePost\\src\\config.properties";
@@ -29,8 +30,8 @@ public class Utilities {
 	}		
 	
 		
-	/******************************************************************************************************************************/
-	/******************************************************************************************************************************/
+	
+//Function to find element based on object locator	
 	public void type(By objLocator, String sTestdata, WebDriver driver)
 			throws Throwable {
 		
@@ -41,6 +42,7 @@ public class Utilities {
 
 	}
 	
+//function to read data from excel	
 	public Object[][] getRowData(String sheetName,  String path)
 	{
 		String cellData = null;
