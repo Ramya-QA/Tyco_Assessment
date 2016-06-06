@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Assessment Results" verbose="1" >
+  <test name="Test Cases" >
+    <classes>
+       <class name="Selenium.PostTestCase"/>
+       <class name="Assessment.TestCase"/>
+    </classes>
+  </test>
+ 
+
+</suite>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assessment Results" duration-ms="3815" started-at="2016-06-06T20:56:17Z" finished-at="2016-06-06T20:56:20Z">
+    <groups>
+    </groups>
+    <test name="Test Cases" duration-ms="3815" started-at="2016-06-06T20:56:17Z" finished-at="2016-06-06T20:56:20Z">
+      <class name="Assessment.TestCase">
+        <test-method status="PASS" signature="TestGet()[pri:0, instance:Assessment.TestCase@546a03af]" name="TestGet" duration-ms="195" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGet -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Assessment.TestCase@546a03af]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Assessment.TestCase@546a03af]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestHeaders()[pri:0, instance:Assessment.TestCase@546a03af]" name="TestHeaders" duration-ms="88" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHeaders -->
+        <test-method status="PASS" signature="TestPost()[pri:0, instance:Assessment.TestCase@546a03af]" name="TestPost" duration-ms="96" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Assessment.TestCase@546a03af]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- Assessment.TestCase -->
+      <class name="Selenium.PostTestCase">
+        <test-method status="PASS" signature="Driver()[pri:0, instance:Selenium.PostTestCase@7907ec20]" name="Driver" is-config="true" duration-ms="3206" started-at="2016-06-06T13:56:13Z" finished-at="2016-06-06T13:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driver -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Selenium.PostTestCase@7907ec20]" name="BeforeTest" is-config="true" duration-ms="373" started-at="2016-06-06T13:56:17Z" finished-at="2016-06-06T13:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="TestPost(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selenium.PostTestCase@7907ec20]" name="TestPost" duration-ms="1240" started-at="2016-06-06T13:56:18Z" data-provider="getData" finished-at="2016-06-06T13:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xxx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.111111111E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xxx@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Small]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bacon]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11:00 AM]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Del on time]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPost -->
+        <test-method status="PASS" signature="TestPost(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selenium.PostTestCase@7907ec20]" name="TestPost" duration-ms="1201" started-at="2016-06-06T13:56:19Z" data-provider="getData" finished-at="2016-06-06T13:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yyy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.222222222E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yyy@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Medium]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Onion]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12:00 AM]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Del before 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPost -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Selenium.PostTestCase@7907ec20]" name="closeBrowser" is-config="true" duration-ms="10" started-at="2016-06-06T13:56:20Z" finished-at="2016-06-06T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Selenium.PostTestCase -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Assessment Results -->
+</testng-results>
